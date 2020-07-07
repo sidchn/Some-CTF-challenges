@@ -1,2 +1,2 @@
-# CSFNinjas-Entry-Challenge
-You have to solve these challenges first if you want to join our CTF team.
+# CTF-Warmup-Challenges
+Some warmup level ctf challenges.
