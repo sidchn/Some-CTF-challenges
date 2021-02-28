@@ -3,7 +3,7 @@ public class ComputerSciencePrinciples
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Lets see you Reverse Engineering SKills, Enter something: ");
+        System.out.println("Lets see your Reverse Engineering SKills, Enter something: ");
         String inp = sc.nextLine();
         if (inp.length()!=18) {
             System.out.println("Your input is incorrect.");
