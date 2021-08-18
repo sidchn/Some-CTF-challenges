@@ -1,0 +1,6 @@
+Challenge Name: d3bug-th1s
+Category: Reverse Engineering
+Challenge Description: The space station provides a nice environment for enthusiasts to discover their potential. You are given a 
+linux executable which says "segmentation fault" on running can you find out what the binary is doing and get the flag.
+Points: 80
+Author : Siddhant Chouhan

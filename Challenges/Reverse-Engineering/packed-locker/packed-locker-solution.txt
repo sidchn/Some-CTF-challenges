@@ -1,0 +1,16 @@
+the binary is compiled using gcc test.c -static -fvisibility=hidden -fvisibility-inlines-hidden -s -o a.out
+the binary is stripped and the functions have been inlined so as to prevent reverse engineering to some extent.
+The binary is then packed using upx 9 a.out
+
+
+Solution:
+sid@parrot:~$ strings a.out
+
+it reveals that there is a UPX header and footer.
+
+Unpack the binary with upx -d a.out
+
+Now open the binary in r2 or ghidra and you can see the password is sUp3r_stRong_password123!#
+execute the binary ./a.out and paste this password. we get the flag.
+flag{sUp3r_stRong_password123!#}
+

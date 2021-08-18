@@ -1,0 +1,7 @@
+Challenge Name: bifid and his memes
+Challenge Description: Bifid was looking at some memes but then he came across a cryptic text. He doesn't have it with him anymore but he does have a network capture which can be helpful. Can you find out what he is talking about and decode it.
+
+flag format :  flag{some_text_here}
+
+
+

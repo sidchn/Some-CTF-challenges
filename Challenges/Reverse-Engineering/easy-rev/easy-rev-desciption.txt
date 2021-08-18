@@ -1,0 +1,14 @@
+Challenge Name : Easy-Rev
+Category : Reverse Engineering
+Author : Siddhant Chouhan
+Points: 80
+
+Description: you are given a 64 bit linux executable named easy-rev.out execute it on your linux systems using ./easy-rev.out.
+It asks for 3 passwords if you give the correct passwords the flag will be printed.
+
+Flag format: flag{some_thing_here}
+
+Tip: Use radare2 tool to analyze the executable. Here is a simple tutorial if you have never used radare2 before :
+https://sandeepbaldawa.medium.com/radare2-for-reverse-engineering-part1-eedf0a47b5cc
+
+
